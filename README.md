@@ -1,11 +1,11 @@
 # spider_visualize_monitor
 
-Linux下使用Grafana+InfluxDB+MongoDB实现爬虫可视化动态监控
-
-编码及配置过程详情，请参考：https://www.jianshu.com/p/9de223e05a5e
 
 1.前言
+
 本文介绍的方法，是使用 Grafana 和 InfluxDB 对爬虫进行可视化监控。
+
+编码及配置过程详情，请参考：https://www.jianshu.com/p/9de223e05a5e
 
 Grafana 是一个开源的分析和监控系统，拥有精美的web UI，支持多种图表，可以展示influxdb中存储的数据，并且有报警的功能。
 
