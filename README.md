@@ -5,7 +5,9 @@
 
 本文介绍的方法，是使用 Grafana 和 InfluxDB 对爬虫进行可视化监控。
 
-编码及配置过程详情，请参考：https://www.jianshu.com/p/9de223e05a5e
+配置过程详情，请参考：https://www.jianshu.com/p/9de223e05a5e
+
+monitor_settings.py 以及 influx_settings.conf 代码，参考自小四毛，参考链接：https://github.com/xiaosimao/wx_code/tree/master/Crawler_Visualization
 
 Grafana 是一个开源的分析和监控系统，拥有精美的web UI，支持多种图表，可以展示influxdb中存储的数据，并且有报警的功能。
 
@@ -73,5 +75,3 @@ InfluxDB 简介
 -- 可度量性：可以实时对大量数据进行计算；
 
 -- 基于事件：它支持任意的事件数据；
-
-参考链接：https://github.com/xiaosimao/wx_code/tree/master/Crawler_Visualization
